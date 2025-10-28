@@ -1,4 +1,4 @@
- <h1 align="center"> Hi, I'm Rangga"</h1>
+ <h1 align="center"> Hi 👋, I'm Muhammad Rangga Maulana</h1>
 <img align="center" margin="right alt="web-developer" widht=100% src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG4zM2FoNjA0bnJzcTBtNHhxbHpzaGQyOW54ZHVmbDU5ZnI3cXFlOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Basrh159dGwKY/giphy.gif">
 <h3 align="left">As a student in Teknik Komputer Jaringan and telekomunikasi at SMKN 1 Soreang</h3>
 <p align="left">
