@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Muhammad Rangga Maulana</h1>
-<img align="center" alt="web-developer" widht=200% src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnRpNnJncHNtOTEzbDc0NWJvZ3dyZW5pdDJjdnZ0azE3NTRuczBmOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EyiufcIwTdF35pNIFS/giphy.gif">
+  <div class="typing-text" id="typing-text"></div>>
+<img align="center" margin="right alt="web-developer" widht=100% src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG4zM2FoNjA0bnJzcTBtNHhxbHpzaGQyOW54ZHVmbDU5ZnI3cXFlOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Basrh159dGwKY/giphy.gif">
 <h3 align="left">As a student in Teknik Komputer Jaringan and telekomunikasi at SMKN 1 Soreang</h3>
 <p align="left">
 <a href="https://instagram.com/rngg_23i" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rngg_23i" height="30" width="40" /></a>
@@ -35,3 +35,59 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=xsbow8&show_icons=true&locale=en" alt="xsbow8" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=xsbow8&" alt="xsbow8" /></p>
+
+<style>
+   .typing-text {
+            font-size: 56px;
+            font-weight: bold;
+            color: #ff3333;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+   }
+
+</style>
+
+
+<script>
+      // Typing Animation
+        const texts = [
+            "Halo, Saya Rangga",
+            "Web Designer",
+            "Frontend Developer",
+            "Creative Coder"
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typing-text');
+
+        function typeText() {
+            const currentText = texts[textIndex];
+            
+            if (!isDeleting) {
+                typingElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+                
+                if (charIndex === currentText.length) {
+                    isDeleting = true;
+                    setTimeout(typeText, 2000);
+                    return;
+                }
+            } else {
+                typingElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+                
+                if (charIndex === 0) {
+                    isDeleting = false;
+                    textIndex = (textIndex + 1) % texts.length;
+                    setTimeout(typeText, 500);
+                    return;
+                }
+            }
+            
+            setTimeout(typeText, isDeleting ? 50 : 100);
+        }
+</script>
