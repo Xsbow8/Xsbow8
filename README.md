@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Muhammad Rangga Maulana</h1>
-<h3 align="left">As a student in Teknik Komputer Jaringan and telekomunikasi at SMKN 1 Soreang</h3>
+<img align="center" alt="web-developer" widht=100% src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHlnbXhkdnVndHkzY2dyMGUyNnhlNGUwcXNiZXNlY3BjeG0wdTEzaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LD2ZJ0pdNmCxFikNQ5/giphy.gif">
+<h3 align="justify">As a student in Teknik Komputer Jaringan and telekomunikasi at SMKN 1 Soreang</h3>
 <p align="left">
 <a href="https://instagram.com/rngg_23i" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rngg_23i" height="30" width="40" /></a>
 <a href="https://discord.gg/1066881574542520391" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="1066881574542520391" height="30" width="40" /></a>
